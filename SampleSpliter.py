@@ -35,3 +35,7 @@ with open('./'+train_data_name,'w') as f:
 with open('./'+validation_data_name,'w') as f:
     for line in validation_array:
         f.write(str(line).zfill(4)+'\n')
+
+with open('voc2012.name','w') as f:
+    for line in sample_arrray:
+        f.write(str(line)+'\n')
